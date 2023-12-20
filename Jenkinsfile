@@ -21,5 +21,10 @@ pipeline{
 				sh 'lscpu'
 			}
 		}
+        stage('5-welcome message'){
+            steps{
+                echo 'welcome to Etech team8 jenkins'
+            }
+        }
 	}
 }
