@@ -26,5 +26,10 @@ pipeline{
                 echo 'welcome to Etech team8 jenkins'
             }
         }
+        stage('6-securitycheck'){
+            steps{
+                sh "bash -x /var/lib/jenkins/workspace/jenkins-demo3/script.sh"
+            }
+        }
 	}
 }
