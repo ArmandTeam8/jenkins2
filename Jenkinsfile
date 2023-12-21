@@ -23,7 +23,7 @@ pipeline{
 		}
         stage('5-welcome message'){
             steps{
-                echo 'welcome to Etech team8group4 jenkins'
+                echo 'welcome to Etech team8 jenkins'
             }
         }
         stage('6-securitycheck'){
