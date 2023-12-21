@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage('1-action1'){
 			steps{
-				checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'jenkins-access', url: 'https://github.com/ArmandTeam8/jenkins2.git']])
+				checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'ArmandCantiller87', url: 'https://github.com/ArmandTeam8/jenkins2.git']]
 			}
 		}
 		stage('2-action2'){
@@ -23,7 +23,7 @@ pipeline{
 		}
         stage('5-welcome message'){
             steps{
-                echo 'welcome to Etech team8 jenkins'
+                echo 'welcome to Etech team8team4 jenkins'
             }
         }
         stage('6-securitycheck'){
